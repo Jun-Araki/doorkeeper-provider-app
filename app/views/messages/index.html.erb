@@ -1,8 +1,12 @@
 <form>
-  <input type="text" name="message" />
-  <button type="submit">Send</button>
+  <input type="text" id="username_input" placeholder="Your Name" />
+  <input type="text" id="message_input" placeholder="Type your message..." />
+  <button type="submit" id="send_button">Send</button>
 </form>
 
+<hr>
+
+<h3>Messages</h3>
 <div id="messages">
   <%= render @messages %>
 </div>

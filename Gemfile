@@ -21,7 +21,8 @@ gem "pg", "~> 1.5", group: :production
 gem "rollbar"
 
 gem "puma"
-gem "rack-timeout"
+gem "rack-timeout"# Gemfile
+gem "importmap-rails" # この行を追加
 
 group :development do
   gem "listen"

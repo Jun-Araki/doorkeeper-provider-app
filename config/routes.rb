@@ -19,7 +19,7 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :messages
+  resources :messages, only: [:index]
 
   root to: 'home#index'
 end
